@@ -4,5 +4,5 @@ word = "Holberton"
 # Comment test
 # LOL If this works
 print(f"First 3 letters: {word[:3]}")
-print(f"Last 2 letters: {word[7:]}")
+print(f"Last 2 letters: {word[-2:]}")
 print(f"Middle word: {word[1:8]}")
