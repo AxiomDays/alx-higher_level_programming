@@ -4,4 +4,4 @@ for i in string.ascii_lowercase:
     if (i == 'q' or i == 'e'):
         continue
     else:
-        print("{:s}".format(i), end=" ")
+        print("{:s}".format(i), end="")
