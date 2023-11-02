@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import add_0
+import add_0 as addm
 
 a = 1
 b = 2
-print("{0} + {1} = {2}".format(a, b, add_0.add(a, b)))
+print(f"{a} + {b} = {addm.add(a, b)}")
