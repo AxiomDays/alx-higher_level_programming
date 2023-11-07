@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def multiple_returns(sentence):
+    char = list(sentence)[0]
     if (len(sentence) < 1):
-        return None
-    tuple = (len(sentence), list(sentence)[0])
+        char = None
+    tuple = (len(sentence), char)
     return tuple
