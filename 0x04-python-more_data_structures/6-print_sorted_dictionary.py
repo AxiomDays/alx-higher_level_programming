@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+def print_sorted_dictionary(a_dictionary):
+    dictlist = ((a_dictionary.values()))
+    print (dictlist)
+    
+
