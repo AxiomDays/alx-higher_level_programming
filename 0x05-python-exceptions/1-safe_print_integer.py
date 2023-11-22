@@ -7,3 +7,5 @@ def safe_print_integer(value):
         return False
     except IndexError:
         return False
+    except Exception as err:
+        return False
