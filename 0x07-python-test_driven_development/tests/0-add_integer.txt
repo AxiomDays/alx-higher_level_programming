@@ -37,3 +37,21 @@ Examples:
 5
 >>> [add_integer(i, i ** 2) for i in range(6)]
 [0, 2, 6, 12, 20, 30]
+
+>>> add_integer(1, float('nan'))
+Traceback (most recent call last):
+...
+ValueError: cannot convert float NaN to integer
+
+>>> add_integer(1, float('inf'))
+Traceback (most recent call last):
+...
+OverflowError: cannot convert float infinity to integer
+
+>>> add_integer(999999999999999999999999999999, 1)
+1000000000000000000000000000000
+
+>>> add_integer([1], 2)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
