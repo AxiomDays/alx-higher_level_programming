@@ -27,3 +27,13 @@ Examples:
 
 >>> add_integer(0, 0)
 0
+
+>>> add_integer(2.1, 4)
+6
+>>> add_integer(5, 7.8)
+12
+
+>>> add_integer(2.45, 3.1)
+5
+>>> [add_integer(i, i ** 2) for i in range(6)]
+[0, 2, 6, 12, 20, 30]
