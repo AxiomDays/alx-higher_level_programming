@@ -1,0 +1,29 @@
+The ``0-add_integer`` module
+======================
+
+Using ``add_integer``
+-------------------
+
+# test_sum.txt
+
+Importing the function from the module:
+	>>> add_integer = __import__("0-add_integer").add_integer
+
+Add two integers.
+
+Parameters:
+- a (int): The first integer.
+- b (int): The second integer.
+
+Returns:
+int: The sum of a and b.
+
+Examples:
+>>> add_integer(2, 3)
+5
+
+>>> add_integer(-1, 5)
+4
+
+>>> add_integer(0, 0)
+0
