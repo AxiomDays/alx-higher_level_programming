@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+""" this is what this file does """
 
 def class_to_json(obj):
     """
