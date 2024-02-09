@@ -1,4 +1,3 @@
-/*script to show all databases*/
-/*query that shows databases*/
+-- script to show all databases
 SHOW DATABASES;
 
