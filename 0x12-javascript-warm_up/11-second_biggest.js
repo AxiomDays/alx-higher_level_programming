@@ -6,7 +6,8 @@ if (process.argv.length < 4){
 	console.log(0);
 } else {
 	let temp = process.argv.slice(2);
-	temp = temp.sort();
+	temp = temp.map(a => parseInt(a));
+	temp = temp.sort((a, b) => a - b);
 	temp = temp.reverse();
 	temp = new Set(temp);
 	temp = Array.from(temp);
