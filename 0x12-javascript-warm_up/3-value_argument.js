@@ -2,8 +2,8 @@
 
 /* script that prints the first argument sent to it */
 
-if (process.argv.length === 2) {
-        console.log("No argument");
-} else if (process.argv.length > 2){
+if (typeof(process.argv[2]) !== 'undefined') {
 	console.log(process.argv[2]);
+} else {
+	console.log('No argument');
 }
