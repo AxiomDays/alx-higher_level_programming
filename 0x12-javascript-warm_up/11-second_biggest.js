@@ -6,5 +6,9 @@ if (process.argv.length < 4){
 	console.log(0);
 } else {
 	let temp = process.argv.slice(2);
-	console.log(parseInt(Math.max(...temp)));
+	temp = temp.sort();
+	temp = temp.reverse();
+	temp = new Set(temp);
+	temp = Array.from(temp);
+	console.log(parseInt(temp[1]));
 }
