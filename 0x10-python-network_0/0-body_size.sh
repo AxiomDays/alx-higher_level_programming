@@ -1,2 +1,3 @@
 #!/bin/bash
-curl -s -I 0.0.0.0:5000 | grep -Fi Content-Length | awk '{print $2}'
+#prints the content length of a url
+curl -s -I $1 | grep -Fi Content-Length | awk '{print $2}'
