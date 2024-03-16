@@ -9,4 +9,4 @@ if __name__ == "__main__":
         r = requests.get(sys.argv[1])
         print(r.text)
     except r.status_code as e:
-        print("Error code: ".format(e))
+        print("Error code: {}".format(e))
